@@ -10,6 +10,7 @@
 		D25A2FD71DF43B17003ACB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A2FD61DF43B17003ACB5F /* AppDelegate.swift */; };
 		D25A2FD91DF43B17003ACB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25A2FD81DF43B17003ACB5F /* Assets.xcassets */; };
 		D25A2FDC1DF43B17003ACB5F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25A2FDA1DF43B17003ACB5F /* MainMenu.xib */; };
+		D25A2FE51DF43DDE003ACB5F /* icon_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D25A2FE41DF43DDE003ACB5F /* icon_dark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		D25A2FD81DF43B17003ACB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D25A2FDB1DF43B17003ACB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D25A2FDD1DF43B17003ACB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25A2FE41DF43DDE003ACB5F /* icon_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_dark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +52,21 @@
 		D25A2FD51DF43B17003ACB5F /* DeskMaid */ = {
 			isa = PBXGroup;
 			children = (
+				D25A2FE31DF43DCA003ACB5F /* Images */,
 				D25A2FD61DF43B17003ACB5F /* AppDelegate.swift */,
 				D25A2FD81DF43B17003ACB5F /* Assets.xcassets */,
 				D25A2FDA1DF43B17003ACB5F /* MainMenu.xib */,
 				D25A2FDD1DF43B17003ACB5F /* Info.plist */,
 			);
 			path = DeskMaid;
+			sourceTree = "<group>";
+		};
+		D25A2FE31DF43DCA003ACB5F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D25A2FE41DF43DDE003ACB5F /* icon_dark.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +130,7 @@
 			files = (
 				D25A2FD91DF43B17003ACB5F /* Assets.xcassets in Resources */,
 				D25A2FDC1DF43B17003ACB5F /* MainMenu.xib in Resources */,
+				D25A2FE51DF43DDE003ACB5F /* icon_dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
